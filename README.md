@@ -1,4 +1,5 @@
 # next-sample-app
+
 A sample application built in Next.js
 
 ### Video notes
@@ -16,6 +17,14 @@ test: para adição ou modificação de testes.
 1. branch trabalho
 2. tipo da branch (chore)
 
+## Projeto/Board
+
 > Board Jira/Trello
-BEE-001 - Criação do boilerplate  
-Tipo: chore  
+> BEE-001 - Criação do boilerplate  
+> Tipo: chore
+
+BEE-002 - Listagem de usuários  
+Tipo: feat
+
+- Criar um recurso para disponibilização dos usuários (backend)
+- Criar um componente de visualização da lista dos usuários (frontend)
