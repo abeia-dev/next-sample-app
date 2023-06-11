@@ -23,8 +23,19 @@ test: para adição ou modificação de testes.
 > BEE-001 - Criação do boilerplate  
 > Tipo: chore
 
+---
+
 BEE-002 - Listagem de usuários  
 Tipo: feat
 
 - Criar um recurso para disponibilização dos usuários (backend)
 - Criar um componente de visualização da lista dos usuários (frontend)
+
+---
+
+BEE-003 - Criar um util para requisições http
+Tipo: chore
+
+- Criar uma função que faz requisições
+- Criar um test unitário
+- Chamar essa função na home page
