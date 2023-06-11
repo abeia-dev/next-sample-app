@@ -3,9 +3,11 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"dev": "next dev"
+		"dev": "next dev",
+		"test": "jest"
 	},
 	"devDependencies": {
+		"jest": "^29.5.0",
 		"prettier": "^2.8.8"
 	},
 	"dependencies": {
