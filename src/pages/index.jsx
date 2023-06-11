@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
+import * as http from '../utils/http'
 
 const HomePage = () => {
 	const [users, setUsers] = useState([])
 
-	useEffect(() => {
-		fetch('/api/user')
-			.then((response) => response.json())
-			.then((usersList) => setUsers(usersList))
-	}, [])
+	useEffect(
+		() => http.request('/api/user').then((usersList) => setUsers(usersList)),
+		[]
+	)
 
 	return (
 		<>
